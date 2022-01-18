@@ -1,4 +1,4 @@
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
 
 const now = DateTime.now();
 const today = now.toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS, {
