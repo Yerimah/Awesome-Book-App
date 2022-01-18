@@ -17,17 +17,3 @@ class Book {
 }
 
 export default Book;
-
-// export function render() {
-//     bookList.innerHTML = '';
-//     newBook.storedBook.forEach((singleBook) => {
-//       bookList.innerHTML += `
-//             <ul id="${singleBook.id}">
-//                 <li>${singleBook.title}</li>
-//                 <li>${singleBook.author}</li>
-//                 <button class="removebtn" id="delete">remove</button>
-//             </ul>
-//             <hr>
-//             `;
-//     });
-//   }

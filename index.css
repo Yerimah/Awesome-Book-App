@@ -27,6 +27,11 @@ body {
   flex-direction: row;
   list-style-type: none;
   margin-right: 30px;
+  transition-duration: 0.2s;
+}
+
+.active {
+  color: blue;
 }
 
 nav {
