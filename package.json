@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Yerimah/Awesome-Book-App/issues"
   },
-  "homepage": "https://github.com/Yerimah/Awesome-Book-App#readme"
+  "homepage": "https://github.com/Yerimah/Awesome-Book-App#readme",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
 }

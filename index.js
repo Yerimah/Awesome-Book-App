@@ -5,6 +5,7 @@ import {Book} from "./modules/functions.js";
   const bookList = document.querySelector('.booklist');
   const addBtn = document.querySelector('#addbtn');
   const form = document.querySelector('form');
+  const pageDate = document.querySelector('date');
   const newBook = new Book();
 
   function render() {
@@ -12,8 +13,7 @@ import {Book} from "./modules/functions.js";
     newBook.storedBook.forEach((singleBook) => {
       bookList.innerHTML += `
             <ul id="${singleBook.id}">
-                <li>${singleBook.title}</li>
-                <li>${singleBook.author}</li>
+                <li>${singleBook.title} by ${singleBook.author}</li>
                 <button class="removebtn" id="delete">remove</button>
             </ul>
             <hr>
