@@ -1,10 +1,14 @@
 import Book from './modules/functions.js';
+import { today } from './modules/date.js';
+
+document.getElementById('datetime').innerHTML = today;
 
 const bookTitle = document.querySelector('#booktitle');
 const bookAuthor = document.querySelector('#bookauthor');
 const bookList = document.querySelector('.booklist');
 const addBtn = document.querySelector('#addbtn');
 const form = document.querySelector('form');
+
 const newBook = new Book();
 
 function render() {
