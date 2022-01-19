@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Comic Neue", cursive;
+  padding: 25px 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 30px;
+  transition-duration: 0.2s;
+}
+
+.active {
+  color: blue;
+}
+
+nav {
+  padding: 10px;
+}
+
+li a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  padding-right: 15px;
+  border-right: 2px solid black;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0;
+}
+
+h1 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.hide-content {
+  display: none;
+}
+
+.book-container {
+  padding: 30px 20px;
+}
+
+.stacks {
+  text-align: center;
+}
+
+.booklist {
+  padding: 10px;
+}
+
+.booklist ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.form-container {
+  margin: 0 400px;
+  padding: 50px 20px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+input {
+  padding: 3px 16px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  align-self: flex-end;
+  border: 1px solid black;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 30px;
+}
+
+.reach {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+footer {
+  position: fixed;
+  width: 96%;
+  bottom: 0;
+  border: 2px solid black;
+  padding: 10px 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 678px) {
+  .booklist {
+    padding: 50px 250px;
+  }
+}
