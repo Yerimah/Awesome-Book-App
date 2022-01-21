@@ -2,6 +2,8 @@
 
 # My Awesome Book App
 
+An app built with javascript that showcases a list of books and authors.
+
 ![BookApp](https://user-images.githubusercontent.com/71140133/149976114-2a94e148-7b78-4ec7-afe8-5efcf035b68e.PNG)
 
 
